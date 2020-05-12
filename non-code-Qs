@@ -1,0 +1,18 @@
+ QUESTION #1
+ 
+ https://docs.google.com/drawings/d/10LUJrQ6Y2eSmyw1tGDluUPdvRaRGcE45JGM6T2Nmrrs/edit?usp=sharing
+
+3,1,4,6,9,2,5,7
+
+Easy question
+
+QUESTION #4
+
+function tree(t){
+    if(!t){
+        return 0;
+    }
+    return tree(t.left) + t.value + tree(t.right)
+}
+
+returns sum of all values in tree 
